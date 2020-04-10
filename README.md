@@ -33,5 +33,5 @@ _process.OutputDataReceived += (sender, e) =>
     _process.Dispose();
 };
 _process.BeginOutputReadLine();
-Thread.Sleep(1200);
+//Thread.Sleep(1200);
 ```
